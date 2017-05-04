@@ -1,0 +1,22 @@
+执行gitk
+Error in startup script: unknown color name "lime"
+    (processing "-fore" option)
+    invoked from within
+"$ctext tag conf m2 -fore [lindex $mergecolors 2]"
+    (procedure "makewindow" line 347)
+    invoked from within
+"makewindow"
+    (file "/usr/local/bin/gitk" line 12434)
+
+
+没有相关颜色的定义
+
+执行命令 brew cask install tcl
+如果有error  Unknown command: cask
+
+执命令行 
+brew tap caskroom/cask
+sudo brew update
+
+重新执行brew cask install tcl
+
